@@ -1,0 +1,26 @@
+# Node dependencies
+node_modules/
+
+# Local session folders
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Uploaded campaign images (keep folder empty in Git)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Environment variables
+.env
+.env.local
+
+# Build outputs
+frontend/dist/
+
+# Scratch folder (temporary files)
+scratch/
+
+# OS specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store

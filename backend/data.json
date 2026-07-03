@@ -1,0 +1,291 @@
+{
+  "users": [
+    {
+      "id": "user_1782918158418",
+      "username": "testuser",
+      "email": "test@example.com",
+      "password": "$2a$10$YxRxQnektBU1D7xa9p0PR.W7L42H9Vv2xbqqspN/tBfQqxrHR5GG2",
+      "createdAt": "2026-07-01T15:02:38.418Z"
+    },
+    {
+      "id": "user_1783055464832",
+      "username": "testuser_9783",
+      "email": "testuser_9783@example.com",
+      "password": "$2a$10$/4vn3pY8uWwL20gQgW0S3.KZqomUfgI9GhV1diUzOoHyJlRwDkiNG",
+      "createdAt": "2026-07-03T05:11:04.832Z"
+    },
+    {
+      "id": "user_1783055694907",
+      "username": "nagarjan",
+      "email": "nagarajank248@gmail.com",
+      "password": "$2a$10$emKovfDh4Ws.4qTv7fPgxuLAOa21kh2FEV85LM0U3yVP334dswCSu",
+      "createdAt": "2026-07-03T05:14:54.907Z"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "camp_1782918206294",
+      "userId": "user_1782918158418",
+      "name": "Test JSON Campaign",
+      "caption": "This is a test",
+      "images": [],
+      "contacts": [
+        {
+          "name": "John Doe",
+          "phone": "9876543210",
+          "status": "Sent",
+          "sentAt": "2026-07-01T15:05:30.154Z",
+          "errorReason": null
+        },
+        {
+          "name": "Jane Doe",
+          "phone": "9123456789",
+          "status": "Sent",
+          "sentAt": "2026-07-01T15:05:35.175Z",
+          "errorReason": null
+        }
+      ],
+      "status": "Completed",
+      "scheduledTime": "2026-07-01T15:03:26.288Z",
+      "delayInterval": "5 minutes",
+      "currentContactIndex": 2,
+      "createdAt": "2026-07-01T15:03:26.294Z",
+      "errorReason": null
+    },
+    {
+      "id": "camp_1783055869651",
+      "userId": "user_1783055694907",
+      "name": "order summbery",
+      "caption": "hi this is builders",
+      "images": [
+        "/uploads/1783055869630-337580202.jpeg"
+      ],
+      "contacts": [
+        {
+          "id": "contact_1783055869647_dj7dgy11s",
+          "name": "Contact 1",
+          "phone": "+91 9360972553",
+          "status": "Sent",
+          "sentAt": "2026-07-03T05:17:53.618Z",
+          "errorReason": null
+        }
+      ],
+      "status": "Completed",
+      "scheduledTime": "2026-07-03T05:18:00.000Z",
+      "delayInterval": "10-15 minutes",
+      "dailyLimit": 6,
+      "activeHoursStart": "09:00",
+      "activeHoursEnd": "18:00",
+      "durationDays": 3,
+      "currentContactIndex": 1,
+      "createdAt": "2026-07-03T05:17:49.651Z",
+      "errorReason": null
+    },
+    {
+      "id": "camp_1783056153934",
+      "userId": "user_1783055694907",
+      "name": "Trial",
+      "caption": "hey this is me",
+      "images": [
+        "/uploads/1783056153904-628879362.jpg"
+      ],
+      "contacts": [
+        {
+          "id": "contact_1783056153930_2oz2p8rqn",
+          "name": "Contact 1",
+          "phone": "+919360972553",
+          "status": "Sent",
+          "sentAt": "2026-07-03T05:29:50.792Z",
+          "errorReason": null
+        }
+      ],
+      "status": "Completed",
+      "scheduledTime": "2026-07-03T05:22:00.000Z",
+      "delayInterval": "10-15 minutes",
+      "dailyLimit": 2,
+      "activeHoursStart": "09:00",
+      "activeHoursEnd": "18:00",
+      "durationDays": 1,
+      "currentContactIndex": 1,
+      "createdAt": "2026-07-03T05:22:33.934Z",
+      "errorReason": null
+    },
+    {
+      "id": "camp_1783058051797",
+      "userId": "user_1783055694907",
+      "name": "Test",
+      "caption": "pack of 10 chapati - Rs.40",
+      "images": [
+        "/uploads/1783058051787-528014184.jpeg"
+      ],
+      "contacts": [
+        {
+          "id": "contact_1783058051794_gsyxr5oh9",
+          "name": "me",
+          "phone": "9360972553",
+          "status": "Sent",
+          "sentAt": "2026-07-03T05:54:15.748Z",
+          "errorReason": null
+        },
+        {
+          "id": "contact_1783058051794_ilpxfus1z",
+          "name": "tambi",
+          "phone": "9360151984",
+          "status": "Sent",
+          "sentAt": "2026-07-03T05:54:27.189Z",
+          "errorReason": null
+        },
+        {
+          "id": "contact_1783058051794_dmhvhk06p",
+          "name": "ammu 1",
+          "phone": "8925961485",
+          "status": "Sent",
+          "sentAt": "2026-07-03T05:54:41.067Z",
+          "errorReason": null
+        },
+        {
+          "id": "contact_1783058051794_05bkk3094",
+          "name": "thnagam",
+          "phone": "9384260349",
+          "status": "Sent",
+          "sentAt": "2026-07-03T05:54:55.558Z",
+          "errorReason": null
+        }
+      ],
+      "status": "Completed",
+      "scheduledTime": "2026-07-03T05:54:00.000Z",
+      "delayInterval": "10-15 minutes",
+      "dailyLimit": 6,
+      "activeHoursStart": "09:00",
+      "activeHoursEnd": "18:00",
+      "durationDays": 7,
+      "currentContactIndex": 4,
+      "createdAt": "2026-07-03T05:54:11.797Z",
+      "errorReason": null
+    },
+    {
+      "id": "camp_1783065524320",
+      "userId": "user_1783055694907",
+      "name": "for app test",
+      "caption": "this message for app test ,ignore this message",
+      "images": [
+        "/uploads/1783065524271-500047814.png"
+      ],
+      "contacts": [
+        {
+          "id": "contact_1783065524315_mbd9cytv1",
+          "name": "me",
+          "phone": "9360972553",
+          "status": "Sent",
+          "sentAt": "2026-07-03T07:58:55.320Z",
+          "errorReason": null
+        },
+        {
+          "id": "contact_1783065524315_dmfjryy3y",
+          "name": "tambi",
+          "phone": "9360151984",
+          "status": "Sent",
+          "sentAt": "2026-07-03T08:09:17.096Z",
+          "errorReason": null
+        },
+        {
+          "id": "contact_1783065524315_crie0b44z",
+          "name": "ammu 1",
+          "phone": "8925961485",
+          "status": "Sent",
+          "sentAt": "2026-07-03T08:23:14.869Z",
+          "errorReason": null
+        },
+        {
+          "id": "contact_1783065524315_4tdu9cqaq",
+          "name": "thnagam",
+          "phone": "9384260349",
+          "status": "Sent",
+          "sentAt": "2026-07-03T08:38:12.465Z",
+          "errorReason": null
+        },
+        {
+          "id": "contact_1783065524315_7n19hkj3r",
+          "name": "sudar",
+          "phone": "9345838770",
+          "status": "Sent",
+          "sentAt": "2026-07-03T08:49:36.217Z",
+          "errorReason": null
+        },
+        {
+          "id": "contact_1783065524315_537ffookl",
+          "name": "sudalai",
+          "phone": "7395833988",
+          "status": "Sent",
+          "sentAt": "2026-07-03T09:00:41.787Z",
+          "errorReason": null
+        },
+        {
+          "id": "contact_1783065524315_50fckmvvo",
+          "name": "srimath",
+          "phone": "7305299869",
+          "status": "Sent",
+          "sentAt": "2026-07-03T09:11:24.396Z",
+          "errorReason": null
+        },
+        {
+          "id": "contact_1783065524315_jnaye9ljh",
+          "name": "saravana",
+          "phone": "9080045695",
+          "status": "Sent",
+          "sentAt": "2026-07-03T09:24:27.303Z",
+          "errorReason": null
+        },
+        {
+          "id": "contact_1783065524315_m4a1zhkbi",
+          "name": "mahalingam",
+          "phone": "8838679318",
+          "status": "Sent",
+          "sentAt": "2026-07-03T09:37:11.953Z",
+          "errorReason": null
+        },
+        {
+          "id": "contact_1783065524315_atl6jjdzn",
+          "name": "dass",
+          "phone": "8870116386",
+          "status": "Sent",
+          "sentAt": "2026-07-03T09:49:27.416Z",
+          "errorReason": null
+        },
+        {
+          "id": "contact_1783065524315_zi9rx6ca8",
+          "name": "jram",
+          "phone": "8618709468",
+          "status": "Sent",
+          "sentAt": "2026-07-03T10:00:35.966Z",
+          "errorReason": null
+        }
+      ],
+      "status": "Completed",
+      "scheduledTime": "2026-07-03T07:47:00.000Z",
+      "delayInterval": "10-15 minutes",
+      "dailyLimit": 20,
+      "activeHoursStart": "09:00",
+      "activeHoursEnd": "18:00",
+      "durationDays": 7,
+      "currentContactIndex": 11,
+      "createdAt": "2026-07-03T07:58:44.320Z",
+      "errorReason": null
+    }
+  ],
+  "settings": {
+    "user_1782918158418": {
+      "delayInterval": "5 minutes",
+      "dailyLimit": 100
+    },
+    "user_1783055464832": {
+      "delayInterval": "5 minutes",
+      "dailyLimit": 100
+    },
+    "user_1783055694907": {
+      "delayInterval": "5 minutes",
+      "dailyLimit": 40,
+      "demoMode": false
+    }
+  }
+}
