@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:5000/api';
+const BASE_URL = 'https://arivippu.onrender.com/api';
 
 const getHeaders = (isMultipart = false) => {
   const token = localStorage.getItem('token');
